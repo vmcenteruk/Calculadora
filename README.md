@@ -1,5 +1,5 @@
 # Calculadora
-<br />
+
 **Pros&Cons:**
 <br />
 (+) A calculadora responde àos botões do teclado.<br />
