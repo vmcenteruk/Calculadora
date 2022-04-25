@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("ground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-calculator {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 71px);
+  grid-template-rows: 78px repeat(5, 71px);
+  color: white;
+  gap: 1px;
+  border: none;
+  width: fit-content;
+  min-height: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px darkgray;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+.grid-calculator > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.display {
+  background-color: hsl(240deg 9% 32%);
+  grid-column: span 4;
+  padding: 10px 10px 10px 10px;
+  font-size: 3rem;
+  display: inline-block;
+  text-align: end;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.colorGroupA {
+  background-color: hsl(255deg 2% 37%);
+}
+
+.colorGroupB {
+  background-color: hsl(213deg 4% 46%);
+}
+
+.colorGroupC {
+  background-color: hsl(33deg 95% 57%);
+}
+
+button:hover:enabled {
+  font-size: 3rem;
+}
