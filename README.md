@@ -7,8 +7,8 @@
 <br />
 **Informação adicional:**
 <br />
-A calculadora tem a seguinte lógica: as botóes + - / * desempenham a função "=" em alguns casos:<br />
-quando chamados logo depois de um deles sem indtroduzir algum número. <br />
+A calculadora tem a seguinte lógica: as botões + - / * desempenham a função "=" em alguns casos:<br />
+quando chamados imediatamente depois de um deles sem indtroduzir algum número. <br />
 Exemplos: <br />
 ```
 6-+ => 6+ (ou seja: 6-0=6 => 6+)
