@@ -2,7 +2,7 @@
 
 **Pros&Cons:**
 <br />
-(+) A calculadora responde àos botões do teclado.<br />
+(+) A calculadora responde àos botões do teclado. (**não funciona correto. Comentário adicionado 26.04 depois do teste com teclado normal (ou seja, com teclado numérico)**).<br />
 (-) Ainda é preciso limitar a quantidade de caracteres em parte inteira dos números introduzidos. Depois de 16 caracteres pode dar erro. Os caracteres seguintes apresentam-se como 0.<br />
 <br />
 **Informação adicional:**
